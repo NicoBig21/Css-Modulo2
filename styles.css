@@ -1,0 +1,57 @@
+.contenedor {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.borde {
+    border: solid black 1px;
+    height: 40rem;
+    width: 40rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column; 
+}
+
+.borde > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 15rem;
+    height: 15rem;
+    color: white;
+}
+
+.borde-1.borde{
+    justify-content: flex-end; 
+    align-items: flex-end;
+}
+
+.borde-2.borde{
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.borde-3.borde{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.borde-3 {
+    width: 115rem;
+    height: 15.6rem;
+}
+
+.borde div:first-child {
+    background-color: red;
+}
+
+.borde div:nth-child(2) {
+    background-color: blue;
+}
+
+.borde div:last-child {
+    background-color: green;
+}
